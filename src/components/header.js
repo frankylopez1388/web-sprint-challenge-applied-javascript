@@ -1,4 +1,9 @@
 const Header = (title, date, temp) => {
+  <div class="header">
+    <span class="date">{ date }</span>
+    <h1>{ title }</h1>
+    <span class="temp">{ temp }</span>
+   </div>
   // TASK 1
   // ---------------------
   // Implement this function taking `title`, `date` and `temp` as its 3 args and returning the markup below.
